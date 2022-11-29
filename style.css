@@ -69,14 +69,14 @@
 }
 
 .bg-text h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: "Open Sans", "Helvetica Neue";
     color: black;
     text-shadow: 3px 2px 1px #86860b;
 }
 
 .bg-text h4 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "Open Sans", "Helvetica Neue";
     color: black;
     text-shadow: 5px 2px 5px #41412f;
