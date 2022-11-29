@@ -61,9 +61,23 @@
     color: yellow;
 }
 
-.bg-image{
+.bg-image {
     background-image: url('1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 25rem;
+    height: 28rem;
+}
+
+.bg-text h1 {
+    font-size: 4rem;
+    font-family: "Open Sans", "Helvetica Neue";
+    color: black;
+    text-shadow: 3px 2px 1px #86860b;
+}
+
+.bg-text h4 {
+    font-size: 2rem;
+    font-family: "Open Sans", "Helvetica Neue";
+    color: black;
+    text-shadow: 5px 2px 5px #41412f;
 }
