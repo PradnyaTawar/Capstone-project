@@ -24,34 +24,43 @@
 <body>
     <div id="header">
     </div>
-    <div class="contacts-container">
-        <h2 class="title">Contact us</h2>
-        <div class="container d-flex">
-            <div class="contact-image p-5  img-fluid  mb-5 "></div>
-            <div class="contact-form">
-                <form>
-                    <div class="mb-3">
-                        <label class="form-label">Name :</label>
+    <section class="vh-100">
+        <div class="container-fluid h-custom padding">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5 padding">
+              <img src="2.jpg"
+                class="img-fluid" alt="Sample image">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+              <form>
+              
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label">Name :</label>
                         <input type="email" class="form-control" placeholder="Enter your name"
                             aria-describedby="emailHelp">
-
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">E-mail :</label>
-                        <input type="password" class="form-control" placeholder="Enter your e-mail">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Message :</label>
-                        <textarea type="email" class="form-control" placeholder="Enter your message"></textarea>
-
-                    </div>
-
-                    <button type="submit" class=" btn ctbtn">Submit</button>
-                </form>
+                </div>
+      
+                <!-- Password input -->
+                <div class="form-outline mb-3">
+                    <label class="form-label">E-mail :</label>
+                    <input type="password" class="form-control" placeholder="Enter your e-mail">
+                </div>
+      
+                <div class="form-outline mb-3">
+                    <label class="form-label">Message :</label>
+                    <textarea type="email" class="form-control" placeholder="Enter your message"></textarea>
+                </div>
+      
+                <button type="submit" class=" btn ctbtn">Submit</button>
+                
+      
+              </form>
             </div>
+          </div>
         </div>
-    </div>
-
+   
+      </section>
 
     <div id="footer"></div>
     </div>
