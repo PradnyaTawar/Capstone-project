@@ -6,12 +6,28 @@
     text-decoration: none;
 }
 
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+.a:hover {
+    color: rgb(8, 8, 8);
+
+}
+
 .navbar-title:hover {
-    color: yellow;
+    color: rgb(116, 201, 46);
 }
 
 .btn {
     background-color: yellowgreen;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(116, 201, 46);
+    color: black;
 }
 
 .nav-link {
@@ -58,7 +74,8 @@
 }
 
 .cart:hover {
-    color: yellow;
+    color: rgb(116, 201, 46);
+
 }
 
 .bg-image {
@@ -81,7 +98,49 @@
     color: black;
     text-shadow: 5px 2px 5px #41412f;
 }
-hr{
+
+hr {
     width: 90%;
     height: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-image {
+    background-image: url('2.jpg');
+    width: 60%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+
+.form-control {
+    width: 30rem;
+}
+
+.ctbtn {
+    width: 30rem;
+    color: black;
+    background-color: greenyellow;
+    border: none;
+}
+
+.ctbtn:hover {
+    background-color: rgb(116, 201, 46);
+    color: black;
+}
+
+.login-form {
+    margin-left: 20rem;
+    align-items: center;
+    justify-content: center;
 }
