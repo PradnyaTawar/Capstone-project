@@ -123,19 +123,19 @@ a {
 
 .contact-image {
     background-image: url('images/2.jpg');
-    width: 60%;
-    height: 350px;
+    width: 70%;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: contain;
-    border: none;
+ 
 }
 
 .form-control {
-    width: 25rem;
+    width: 20rem;
 }
 
 .ctbtn {
-    width: 25rem;
+    width: 20rem;
     color: black;
     background-color: greenyellow;
     border: none;
