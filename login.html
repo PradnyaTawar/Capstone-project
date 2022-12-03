@@ -19,33 +19,34 @@
             $("#footer").load("footer.html");
         })
     </script>
+    <script src="code.js"></script>
 </head>
 
 <body>
     <div id="header">
     </div>
     <div class="form-login d-flex justify-content-center  padding4 ">
-    <form >
-        <!-- Email input -->
-        <div class="form-outline mb-4">
-            <label class="form-label">E-mail :</label>
-            <input type="password" class="form-control" placeholder="Enter your e-mail">
-        </div>
-      
-        <!-- Password input -->
-        <div class="form-outline mb-4">
-            <label class="form-label">Password :</label>
-            <input type="email" class="form-control" placeholder="Enter your message">
-        </div>
-      
-        <!-- 2 column grid layout for inline styling -->
-       
-        <!-- Submit button -->
-        <button type="submit" class=" btn ctbtn">Login</button>
-      
-        <!-- Register buttons -->
-        
-      </form>
+        <form  onsubmit="validateForm()">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <label class="form-label">E-mail :</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your e-mail">
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <label class="form-label">Password :</label>
+                <input type="password" id="password" class="form-control" placeholder="Enter your password">
+            </div>
+
+            <!-- 2 column grid layout for inline styling -->
+            
+            <!-- Submit button -->
+            <button type="submit" value="Login"  id='myAlert2'  class=" btn ctbtn">Login</button>
+
+            <!-- Register buttons -->
+
+        </form>
     </div>
     <div id="footer"></div>
     </div>

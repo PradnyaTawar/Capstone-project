@@ -13,13 +13,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-
+<script src="code.js"></script>
 </head>
 
 <body>
-
-
-
     <!-- Header -->
     <nav class="navbar navbar-dark navbar-expand-lg  bg-dark">
         <div class="container-fluid ">
@@ -29,15 +26,14 @@
             </button>
             <div class="collapse navbar-collapse  " id="collapsibleNavbar">
                 <li class="nav-item form-inline mx-auto ">
-                    <div class="input-group  ">
-                        <input class="form-control input-lg inp" placeholder="Products and services etc.." type="" .."
+                    <div class="input-group ">
+                        <input class="form-control input-lg inp  " placeholder="Products name, Category names etc.." type="" .."
                             type="text">
                         <div class="input-group-btn">
-                            <button type="submit" id="searchbtn">
+                            <button   class="btn  my-2 my-sm-0" type="submit" id="searchbtn">
                                 search</button>
                         </div>
                 </li>
-
                 <li class=" ms-auto nav-item form-inline">
                     <button class="btn  my-2 my-sm-0" type="submit"><a class="a" style="text-decoration: none; "
                             href="login.html">login</a></button>
@@ -45,52 +41,48 @@
                 </li>
                 <li class=" ms-auto nav-item form-inline">
                     <a class="nav-link" href="cart.html">
-                        <i class="cart fa fa-shopping-cart fa-2x"></i>
+                        <i class="cart-1 fa fa-shopping-cart fa-2x"></i>
                     </a>
                 </li>
             </div>
         </div>
-
     </nav>
     <!--Header end-->
     <!-- Header-2nd -->
     <nav class="nav justify-content-center" style="background-color: #e3f2fd;">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">All Products</a>
+            <a class="nav-link" href="allproducts.html">All Products</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="women.html" role="button"
                 aria-expanded="false">Women</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">All Products</a></li>
-                <li><a class="dropdown-item" href="#">Dresses</a></li>
-                <li><a class="dropdown-item" href="#">Pants</a></li>
-
-                <li><a class="dropdown-item" href="#">Skirts</a></li>
+                <li><a class="dropdown-item" href="women.html">All Products</a></li>
+                <li><a class="dropdown-item" href="Dresses.html">Dresses</a></li>
+                <li><a class="dropdown-item" href="pants.html">Pants</a></li>
+                <li><a class="dropdown-item" href="skirts.html">Skirts</a></li>
             </ul>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="mens.html" role="button"
                 aria-expanded="false">Men</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">All Products</a></li>
-                <li><a class="dropdown-item" href="#">Shirts</a></li>
-                <li><a class="dropdown-item" href="#">Pants</a></li>
-                <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                <li><a class="dropdown-item" href="mens.html">All Products</a></li>
+                <li><a class="dropdown-item" href="shirts.html">Shirts</a></li>
+                <li><a class="dropdown-item" href="pants.html">Pants</a></li>
+                <li><a class="dropdown-item" href="hoodies.html">Hoodies</a></li>
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">kids</a>
+            <a class="nav-link" href="kids.html">kids</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
         </li>
-
     </nav>
-
 </body>
 
 </html>
