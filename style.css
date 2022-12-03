@@ -179,6 +179,8 @@ a {
     transform: translateY(-10px);
     transition: 0.5s;
 }
+
+
 /* medium - display 2  */
 @media (min-width: 768px) {
 
