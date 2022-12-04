@@ -89,8 +89,8 @@
     height: 20rem;
 }
 
-.bg-text h2 {
-    font-size: 3.5rem;
+.bg-text h4 {
+    font-size: 3rem;
     font-family: "Open Sans", "Helvetica Neue";
     color: black;
     text-shadow: 3px 2px 1px #86860b;
@@ -131,11 +131,11 @@ a {
 }
 
 .form-control {
-    width: 20rem;
+    width: 22rem;
 }
 
 .ctbtn {
-    width: 20rem;
+    width: 22rem;
     color: black;
     background-color: greenyellow;
     border: none;
