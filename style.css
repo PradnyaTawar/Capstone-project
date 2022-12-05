@@ -2,7 +2,7 @@
     /* font-style: oblique; */
     font-family: "Open Sans", "Helvetica Neue";
     font-size: 28px;
-    color: yellowgreen;
+    color: rgb(176, 218, 92);
     text-decoration: none;
 }
 
@@ -17,11 +17,11 @@
 }
 
 .navbar-title:hover {
-    color: rgb(116, 201, 46);
+    color: rgb(154, 226, 95);
 }
 
 .btn {
-    background-color: yellowgreen;
+    background-color: rgb(160, 221, 90);
     color: black;
 }
 
@@ -30,6 +30,18 @@
     color: black;
 }
 
+.btn-success{
+    background-color: rgb(50, 130, 205);
+    color: black;
+}
+.btn-success:hover {
+    background-color: rgb(10, 92, 216);
+    color: black;
+}
+.btn-light{
+   
+    outline-style: solid #fff;
+}
 .nav-link {
     color: black;
 }
@@ -73,10 +85,10 @@
     color: yellowgreen;
 }
 
-.cart:hover {
+/* .cart:hover {
     color: rgb(116, 201, 46);
 
-}
+} */
 
 .btn{
     font-size: 0.9rem;
@@ -156,6 +168,10 @@ a {
     padding: 2rem;
 }
 
+.padding-2{
+    padding: 1rem;
+}
+
 .padding4 {
     padding: 5rem;
 }
@@ -180,7 +196,20 @@ a {
     transition: 0.5s;
 }
 
+.img-Products:hover{
+    box-shadow: 5px 6px 6px 2px #779ac5;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
 
+.container-fluid-style {
+    border: 2px sold #779ac5;
+}
+
+.alert-infobox:hover{
+    color: black;
+    background-color: rgb(223, 233, 208);
+}
 /* medium - display 2  */
 @media (min-width: 768px) {
 
