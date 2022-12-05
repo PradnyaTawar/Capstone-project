@@ -143,13 +143,16 @@ a {
 }
 
 .form-control {
-    width: 22rem;
+    width: 20rem;
 }
-
+.form-control-cart {
+  
+    width:5rem;
+}
 .ctbtn {
-    width: 22rem;
+    width: 20rem;
     color: black;
-    background-color: greenyellow;
+    background-color: rgb(123, 187, 26);
     border: none;
 }
 
