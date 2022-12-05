@@ -13,11 +13,12 @@
 
 .a:hover {
     color: rgb(8, 8, 8);
-
+    
 }
 
 .navbar-title:hover {
     color: rgb(154, 226, 95);
+   
 }
 
 .btn {
@@ -195,14 +196,14 @@ a {
 .card:hover{
 
     box-shadow: 5px 6px 6px 2px #86a718;
-    transform: translateY(-10px);
-    transition: 0.5s;
+    transform: translateY(-20px);
+    transition: 0.8s;
 }
 
 .img-Products:hover{
     box-shadow: 5px 6px 6px 2px #779ac5;
-    transform: translateY(-10px);
-    transition: 0.5s;
+    transform: translateY(-30px);
+    transition: 0.8s;
 }
 
 .container-fluid-style {
