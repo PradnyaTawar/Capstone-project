@@ -4,6 +4,10 @@
     font-size: 28px;
     color: rgb(176, 218, 92);
     text-decoration: none;
+    
+}
+.nav-item{
+    padding: 0.2rem;
 }
 
 .a {
@@ -45,16 +49,16 @@
 }
 .nav-link {
     color: black;
+  
 }
 
 .nav-link:hover {
-
     color: rgb(76, 82, 77);
 }
 
 .inp {
-    padding: 0px 250px 0 20px;
-    /* margin-top: 3px; */
+    padding: 0px 200px 0 40px;
+    margin-bottom: 1rem;
     font-size: 15px;
     /* margin-bottom: 5px; */
     color: #333;
@@ -67,13 +71,11 @@
 
 #searchbtn {
     border: 0;
-    /* padding: 0px 10px; */
-    margin-top: 5px;
-    /* margin-bottom: 5px; */
+    padding: 0px 10px;
+    margin-top: 1rem;
+    /* margin-bottom:1px; */
     color: rgb(15, 15, 15);
     background: yellowgreen;
-    /* font-size: 27px;
-  font-weight: 500; */
     border: 1px solid #555;
     /* width: 5rem; */
     box-shadow: none;
