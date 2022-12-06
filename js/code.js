@@ -26,3 +26,8 @@ items.forEach((el) => {
         next = next.nextElementSibling
     }
 })
+
+$('.nav>li').click(function(){
+    $('.active').toggleClass("active");
+    $(this).toggleClass("active");
+})

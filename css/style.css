@@ -4,9 +4,10 @@
     font-size: 28px;
     color: rgb(176, 218, 92);
     text-decoration: none;
-    
+
 }
-.nav-item{
+
+.nav-item {
     padding: 0.2rem;
 }
 
@@ -17,12 +18,12 @@
 
 .a:hover {
     color: rgb(8, 8, 8);
-    
+
 }
 
 .navbar-title:hover {
     color: rgb(154, 226, 95);
-   
+
 }
 
 .btn {
@@ -35,27 +36,40 @@
     color: black;
 }
 
-.btn-success{
+.btn-success {
     background-color: rgb(50, 130, 205);
     color: black;
 }
+
 .btn-success:hover {
     background-color: rgb(10, 92, 216);
     color: black;
 }
-.btn-light{
-   
+
+.btn-light {
+
     outline-style: solid #fff;
 }
+
 .nav-link {
     color: black;
-  
+
 }
 
 .nav-link:hover {
-    color: rgb(76, 82, 77);
+    color: rgb(76, 78, 82);
+}
+#topheader .navbar-nav li > a {
+	text-transform: capitalize;
+	color: rgb(73, 15, 15);
+	transition: background-color .2s, color .2s;
+	
 }
 
+#topheader .navbar-nav li.active > a {
+	background-color: #333;
+	color: rgb(19, 19, 19);
+}
 .inp {
     padding: 0px 200px 0 40px;
     margin-bottom: 1rem;
@@ -93,29 +107,31 @@
 
 } */
 
-.btn{
+.btn {
     font-size: 0.9rem;
     font-weight: bold;
 }
+
 .bg-image {
-    background-image: url('images/1.jpg');
+    /* background-image: url('images/1.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 25rem;
 }
 
+
 .bg-text h4 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "Open Sans", "Helvetica Neue";
     color: black;
-    text-shadow: 3px 2px 1px #86860b;
+    text-shadow: 3px 3px 3px #f5f7f5;
 }
 
 .bg-text h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: "Open Sans", "Helvetica Neue";
     color: black;
-    text-shadow: 5px 2px 5px #41412f;
+    text-shadow: 5px 5px 5px #fcfcfc;
 }
 
 hr {
@@ -125,7 +141,7 @@ hr {
 }
 
 a {
-    
+
     text-decoration: none;
 }
 
@@ -142,16 +158,18 @@ a {
     height: 300px;
     background-repeat: no-repeat;
     background-size: contain;
- 
+
 }
 
 .form-control {
     width: 20rem;
 }
+
 .form-control-cart {
-  
-    width:5rem;
+
+    width: 5rem;
 }
+
 .ctbtn {
     width: 20rem;
     color: black;
@@ -174,7 +192,7 @@ a {
     padding: 2rem;
 }
 
-.padding-2{
+.padding-2 {
     padding: 1rem;
 }
 
@@ -192,17 +210,18 @@ a {
     color: rgb(44, 58, 46);
 }
 
-.card-body{
+.card-body {
     font-size: 0.8rem;
 }
-.card:hover{
+
+.card:hover {
 
     box-shadow: 5px 6px 6px 2px #86a718;
     transform: translateY(-20px);
     transition: 0.8s;
 }
 
-.img-Products:hover{
+.img-Products:hover {
     box-shadow: 5px 6px 6px 2px #779ac5;
     transform: translateY(-30px);
     transition: 0.8s;
@@ -212,10 +231,11 @@ a {
     border: 2px sold #779ac5;
 }
 
-.alert-infobox:hover{
+.alert-infobox:hover {
     color: black;
     background-color: rgb(223, 233, 208);
 }
+
 /* medium - display 2  */
 @media (min-width: 768px) {
 
