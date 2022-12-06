@@ -59,17 +59,19 @@
 .nav-link:hover {
     color: rgb(76, 78, 82);
 }
-#topheader .navbar-nav li > a {
-	text-transform: capitalize;
-	color: rgb(73, 15, 15);
-	transition: background-color .2s, color .2s;
-	
+
+#topheader .navbar-nav li>a {
+    text-transform: capitalize;
+    color: rgb(73, 15, 15);
+    transition: background-color .2s, color .2s;
+
 }
 
-#topheader .navbar-nav li.active > a {
-	background-color: #333;
-	color: rgb(19, 19, 19);
+#topheader .navbar-nav li.active>a {
+    background-color: #333;
+    color: rgb(19, 19, 19);
 }
+
 .inp {
     padding: 0px 200px 0 40px;
     margin-bottom: 1rem;
@@ -119,19 +121,30 @@
     height: 25rem;
 }
 
+.bg-text {
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+
 
 .bg-text h4 {
     font-size: 2.5rem;
     font-family: "Open Sans", "Helvetica Neue";
-    color: black;
-    text-shadow: 3px 3px 3px #f5f7f5;
+    color: rgb(252, 247, 247);
+
+
 }
 
 .bg-text h3 {
+
     font-size: 1.5rem;
     font-family: "Open Sans", "Helvetica Neue";
-    color: black;
-    text-shadow: 5px 5px 5px #fcfcfc;
+    color: rgb(248, 240, 240);
+
 }
 
 hr {

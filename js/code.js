@@ -27,7 +27,3 @@ items.forEach((el) => {
     }
 })
 
-$('.nav>li').click(function(){
-    $('.active').toggleClass("active");
-    $(this).toggleClass("active");
-})
