@@ -1,6 +1,6 @@
 # Capstone-project
  
-##https://capstone-project-fsd.netlify.app/home##
+# https://capstone-project-fsd.netlify.app/home
 
 
 ![Screenshot (979)](https://user-images.githubusercontent.com/78145883/205866182-8f9d7aab-837e-4c58-83ab-7535ddb26197.png)
